@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(0deg 0% 66%);
+}
+.main-flag{
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    margin: 50px auto;
+    position: relative;
+}
+.flag-col{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.flag-stand{
+    height:400px;
+    width: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.small-stand1{
+    width: 80px;
+    height: 80px;
+    background-color: hsl(0deg 0% 0%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 5px #0523f7eb;
+    transform: rotateX(279deg);
+    display: inline-block;
+    position: absolute;
+    top: 360px;
+    left: -37px;
+}
